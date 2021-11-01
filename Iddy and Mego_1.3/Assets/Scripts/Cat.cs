@@ -48,7 +48,6 @@ public class Cat : MonoBehaviour
     public void onJump(InputAction.CallbackContext context)
     {
         jump = context.action.triggered; //triggered on frame
-
     }
     void Update()
     {
@@ -61,11 +60,27 @@ public class Cat : MonoBehaviour
         //jump = false;
 
         //if Lshift is clicked enable isRunning
+<<<<<<< Updated upstream:Iddy and Mego_1.3/Assets/Scripts/Cat.cs
         if (Input.GetKeyDown(KeyCode.LeftShift))
             isRunning = true;
         //if LShift is released disable isRunning
         if (Input.GetKeyUp(KeyCode.LeftShift))
             isRunning = false;
+=======
+        /*  if (Input.GetKeyDown(KeyCode.LeftShift))
+              isRunning = true;
+          //if LShift is released disable isRunning
+          if (Input.GetKeyUp(KeyCode.LeftShift))
+              isRunning = false;*/
+        if (this.transform.position == (new Vector3(-3.440583, 0.3545851, 0)))
+        {   
+            this.transform.position = new Vector3(-9, -18, 0);
+        }
+        if (gamepad.rightTrigger.wasPressedThisFrame)
+        {
+            this.transform.position = new Vector3(-9, -18, 0);
+        }
+>>>>>>> Stashed changes:Iddy and Mego_1.4/Assets/Scripts/Cat.cs
     }
 
     private void FixedUpdate()

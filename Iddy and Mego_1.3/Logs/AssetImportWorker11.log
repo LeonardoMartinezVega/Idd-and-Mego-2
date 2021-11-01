@@ -1,0 +1,21 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.18f1 (25bdc3efbc2d) revision 2473411'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.258; Version 2009; 64bit' Language: 'en' Physical Memory: 8108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Red Falcon/Desktop/GitHub/Iddy-and-Mego-2/Iddy and Mego_1.4
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+1306
+Successfully changed project path to: C:/Users/Red Falcon/Desktop/GitHub/Iddy-and-Mego-2/Iddy and Mego_1.4
+C:/Users/Red Falcon/Desktop/GitHub/Iddy-and-Mego-2/Iddy and Mego_1.4
+Using Asset Import Pipeline V2.
