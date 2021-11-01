@@ -61,12 +61,15 @@ public class Cat : MonoBehaviour
 
         //if Lshift is clicked enable isRunning
 <<<<<<< Updated upstream:Iddy and Mego_1.3/Assets/Scripts/Cat.cs
+<<<<<<< Updated upstream:Iddy and Mego_1.3/Assets/Scripts/Cat.cs
         if (Input.GetKeyDown(KeyCode.LeftShift))
             isRunning = true;
         //if LShift is released disable isRunning
         if (Input.GetKeyUp(KeyCode.LeftShift))
             isRunning = false;
 =======
+=======
+>>>>>>> Stashed changes:Iddy and Mego_1.4/Assets/Scripts/Cat.cs
         /*  if (Input.GetKeyDown(KeyCode.LeftShift))
               isRunning = true;
           //if LShift is released disable isRunning
@@ -80,6 +83,9 @@ public class Cat : MonoBehaviour
         {
             this.transform.position = new Vector3(-9, -18, 0);
         }
+<<<<<<< Updated upstream:Iddy and Mego_1.3/Assets/Scripts/Cat.cs
+>>>>>>> Stashed changes:Iddy and Mego_1.4/Assets/Scripts/Cat.cs
+=======
 >>>>>>> Stashed changes:Iddy and Mego_1.4/Assets/Scripts/Cat.cs
     }
 
